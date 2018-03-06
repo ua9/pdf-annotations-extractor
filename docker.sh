@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# TODO after this bug will be fixed: https://youtrack.jetbrains.com/issue/IDEA-168872
+# TODO this file can be removed
+
 script_dir=$(cd "$(dirname "$0")"; pwd)
 project_dir_name=$(basename "$script_dir")
 
